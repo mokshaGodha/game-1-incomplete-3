@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://photoscissors.com/editor/1015230203/PYDkktEcr -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script type="text/javascript" async="" src="./strawberry_files/analytics.js.download"></script><script async="" src="./strawberry_files/js" type="text/javascript"></script>
+<script type="text/javascript">
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'UA-110945660-1');
+	</script>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>PhotoScissors Online</title>
+<link rel="shortcut icon" href="https://photoscissors.com/favicon.ico" type="image/x-icon">
+<meta name="description" content="PhotoScissors Online">
+<meta name="keywords" content="PhotoScissors Online">
+<link href="./strawberry_files/font-awesome.min.css" rel="stylesheet">
+<link href="./strawberry_files/bootstrap.min.css" rel="stylesheet">
+<link href="./strawberry_files/stylesheet.css" rel="stylesheet" type="text/css">
+<link href="./strawberry_files/editor.css" rel="stylesheet">
+</head>
+<body cz-shortcut-listen="true" class="">
+<div id="wrapper" class="toggled">
+<div id="sidebar-wrapper" style="background-color:white !important;">
+<ul class="nav nav-tabs nav-justified hidden-xs">
+<li>
+<a data-act="selectResultLayer" data-arg="foreground" data-toggle="tab" href="https://photoscissors.com/editor/1015230203/PYDkktEcr#foreground">
+<img src="./strawberry_files/foreground.svg">
+</a>
+</li>
+<li class="active">
+<a data-act="selectResultLayer" data-arg="background" data-toggle="tab" href="https://photoscissors.com/editor/1015230203/PYDkktEcr#background">
+<img src="./strawberry_files/background.svg">
+</a>
+</li>
+<li>
+<a data-act="selectResultLayer" data-arg="shadow" data-toggle="tab" href="https://photoscissors.com/editor/1015230203/PYDkktEcr#shadow">
+<img src="./strawberry_files/shadow.svg">
+</a>
+</li>
+</ul>
+<div class="tab-content">
+<div id="foreground" class="tab-pane fade">
+<h4>Foreground</h4>
+
+<div class="form-group">
+<label for="offsetBoundary">Offset the Boundary</label>
+<select class="form-control" id="offsetBoundary" data-layer="mask" data-property="offset">
+<option value="-10">-10</option>
+<option value="-9">-9</option>
+<option value="-8">-8</option>
+<option value="-7">-7</option>
+<option value="-6">-6</option>
+<option value="-5">-5</option>
+<option value="-4">-4</option>
+<option value="-3">-3</option>
+<option value="-2">-2</option>
+<option value="-1">-1</option>
+<option value="0" selected="selected">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+</select>
+</div>
+<div class="form-group">
+<label for="feathering">Feathering</label>
+<select class="form-control" id="featheringRadius" data-layer="mask" data-property="feathering">
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+</select>
+</div>
+<hr>
+<div class="btn-group">
+<button data-act="resetForeground" type="button" data-arg="" nohref="1" class="btn btn-default" title="Reset Foreground">
+Reset to Defaults
+</button>
+
+</div>
+</div>
+<div id="background" class="tab-pane fade in active">
+<h4>Background
+
+</h4>
+<div class="form-group">
+<div class="dropdown">
+<button class="btn btn-default dropdown-toggle btn-block" type="button" data-toggle="dropdown">Presets
+<span class="caret"></span></button>
+<ul class="dropdown-menu">
+<li class="dropdown-header">Online Shops:</li>
+<li><a href="https://photoscissors.com/editor/1015230203/PYDkktEcr#" title="Prepare for Amazon listing" data-act="prepareForShop" data-arg="">Amazon</a></li>
+<li><a href="https://photoscissors.com/editor/1015230203/PYDkktEcr#" title="Prepare for eBay listing" data-act="prepareForShop" data-arg="">eBay</a></li>
+
+<li><a href="https://photoscissors.com/editor/1015230203/PYDkktEcr#" title="Prepare for Shopify listing" data-act="prepareForShop" data-arg="">Shopify</a></li>
+
+</ul>
+</div>
+</div>
+<div class="form-group">
+<label for="backgroundMode">Mode</label>
+<select class="form-control" id="backgroundMode" data-layer="background" data-property="mode">
+<option value="transparent">Transparent</option>
+<option value="color">Solid Color</option>
+<option value="image">Image</option>
+<option value="original">Original</option>
+</select>
+</div>
+<div class="form-group" style="display: none;">
+<label for="bgColor">Color</label>
+<input type="color" class="form-control" id="bgColor" data-layer="background" data-property="color">
+</div>
+<div class="form-group" style="display: none;">
+<label for="bgImageLoader" class="btn btn-primary btn-block btn-outlined">Select Image</label>
+<input type="file" class="form-control" id="bgImageLoader" style="display: none">
+<input type="hidden" class="form-control" id="bgImage" data-layer="background" data-property="image" value="">
+</div>
+
+
+<div class="form-group">
+<label>Fit to Result</label>
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="form-group">
+<label for="fitToResultPadding">Padding</label>
+<input type="number" min="0" max="100" class="form-control" id="fitToResultPadding" data-layer="background" data-property="padding">
+</div>
+<button data-act="fitToResult" type="button" data-arg="" nohref="1" class="btn btn-default btn-block" title="Fit to Result">
+Fit to Result
+</button>
+</div>
+</div>
+</div>
+
+<hr>
+<div class="btn-group">
+<button data-act="resetLayer" type="button" data-arg="background" nohref="1" class="btn btn-default" title="Reset Background">
+Reset to Defaults
+</button>
+
+</div>
+</div>
+<div id="shadow" class="tab-pane fade">
+<h4><input type="checkbox" data-layer="shadow" data-property="enabled" value=""> Shadow</h4>
+
+
+<div class="form-group">
+<label for="shadowOpacity">Opacity</label>
+<input type="number" min="0" max="100" class="form-control" id="shadowOpacity" data-layer="shadow" data-property="opacity">
+</div>
+<div class="form-group">
+<label for="shadowBlurRadius">BlurRadius</label>
+<input type="number" min="0" max="100" class="form-control" id="shadowBlurRadius" data-layer="shadow" data-property="blurRadius">
+</div>
+<div class="form-group">
+<label for="shadowColor">Color</label>
+<input type="color" class="form-control" id="shadowColor" data-layer="shadow" data-property="color">
+</div>
+<hr>
+<div class="btn-group">
+<button data-act="resetLayer" type="button" data-arg="shadow" nohref="1" class="btn btn-default" title="Reset Shadow">
+Reset to Defaults
+</button>
+
+</div>
+
+</div>
+</div>
+</div>
+<div id="page-content-wrapper">
+<nav class="navbar navbar-default navbar-fixed-top unselectable" role="navigation">
+<div class="container-fluid">
+<div class="navbar-header">
+<a class="navbar-brand hidden-xs" href="https://photoscissors.com/" title="Go to the home page"><img style="margin-top:-6px; margin-right:5px;" width="32px" src="./strawberry_files/photoscissors-icon-128.webp"></a>
+</div>
+<div id="navbar" class="navbar-btn">
+<div class="pull-left">
+<div class="btn-group hidden-sm hidden-md hidden-lg">
+<a data-act="undo" data-arg="" nohref="1" class="btn btn-default" title="Undo"><img src="./strawberry_files/undo.svg"></a>
+<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+<span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu">
+<li><a data-act="redo" data-arg="" nohref="1" tabindex="-1" title="Redo" class="disabled"><img src="./strawberry_files/redo.svg">Redo</a></li>
+</ul>
+</div>
+<div class="btn-group hidden-xs">
+<a data-act="undo" data-arg="" nohref="1" class="btn btn-default" title="Undo"><img src="./strawberry_files/undo.svg"></a>
+<a data-act="redo" data-arg="" nohref="1" class="btn btn-default  disabled" title="Redo"><img src="./strawberry_files/redo.svg"></a>
+</div>
+<div class="btn-group hidden-xs">
+<a data-act="zoomIn" data-arg="" nohref="1" class="btn btn-default" title="Zoom In"><img src="./strawberry_files/zoom-in.svg"></a>
+<a data-act="zoomOut" data-arg="" nohref="1" class="btn btn-default" title="Zoom Out"><img src="./strawberry_files/zoom-out.svg"></a>
+<a data-act="zoomToOrig" data-arg="" nohref="1" class="btn btn-default " title="Original Size"><img src="./strawberry_files/normal-view.svg"></a>
+<a data-act="zoomToFit" data-arg="" nohref="1" class="btn btn-default " title="Zoom To Fit"><img src="./strawberry_files/zoom-to-fit.svg"></a>
+</div>
+<div class="btn-group hidden-sm hidden-md hidden-lg">
+<a data-act="zoomToFit" data-arg="" nohref="1" class="btn btn-default " title="Zoom To Fit"><img src="./strawberry_files/zoom-to-fit.svg"></a>
+<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+<span class="caret"></span>
+</button>
+<ul class="dropdown-menu " role="menu">
+<li><a data-act="zoomIn" data-arg="" nohref="1" title="Zoom In"><img src="./strawberry_files/zoom-in.svg">Zoom In</a></li>
+<li><a data-act="zoomOut" data-arg="" nohref="1" title="Zoom Out"><img src="./strawberry_files/zoom-out.svg">Zoom Out</a></li>
+<li><a data-act="zoomToOrig" data-arg="" nohref="1" title="Original Size"><img src="./strawberry_files/normal-view.svg">Normal View</a></li>
+</ul>
+</div>
+<div class="btn-group hidden-sm hidden-md hidden-lg" data-toggle="buttons">
+<a data-act="showLeft" data-arg="" nohref="1" class="btn btn-default active toolbar-button-no-icon" title="Mask"><input type="radio" name="tool">
+<span class="small">Mask</span>
+</a>
+<a data-act="showRight" data-arg="" nohref="1" class="btn btn-default toolbar-button-no-icon" title="Result"><input type="radio" name="tool">
+<span class="small">Result</span>
+</a>
+</div>
+<div class="btn-group hidden-xs hidden-sm">
+<a data-act="clear" data-arg="" nohref="1" class="btn btn-default " title="Clear Selections"><img src="./strawberry_files/clear.svg"></a>
+</div>
+<div style="display: inline-block;" class="hidden-xs hidden-sm" data-toggle="buttons">
+<div class="btn-group">
+<a data-act="setType" data-arg="foreground" nohref="1" class="btn btn-default active" title="Foreground">
+<input type="radio" name="type"> <img src="./strawberry_files/green.svg">
+</a>
+
+<a data-act="setType" data-arg="erase" nohref="1" class="btn btn-default" title="Erase Markings">
+<input type="radio" name="type"> <img src="./strawberry_files/eraser.svg">
+</a>
+</div>
+<div class="btn-group">
+<a data-act="setType" data-arg="matting" nohref="1" class="btn btn-default" title="Hair tool">
+<input type="radio" name="type"> <img src="./strawberry_files/yellow.svg">
+</a>
+<a data-act="setType" data-arg="erase-matting" nohref="1" class="btn btn-default" title="Erase Hair Markings">
+<input type="radio" name="type"> <img src="./strawberry_files/eraser.svg">
+</a>
+</div>
+<div class="btn-group">
+<a data-act="setType" data-arg="move" nohref="1" class="btn btn-default" title="Move">
+<input type="radio" name="type"> <img src="./strawberry_files/move.svg">
+</a>
+</div>
+</div>
+<div class="btn-group hidden-xs hidden-sm">
+<input type="range" min="1" max="100" value="30" class="slider" id="markerSize" title="Marker Size">
+</div>
+</div>
+<div class="pull-right">
+<a href="https://photoscissors.com/tutorials/online" target="_blank" class="btn btn-warning hidden-xxs" title="Help"><img src="./strawberry_files/help.svg"></a>
+<a data-act="download" data-arg="" nohref="1" class="btn btn-primary " title="Download">
+<img src="./strawberry_files/save.svg">
+<span class="hidden-xs small">Download</span>
+</a>
+<a data-act="toggleMenu" data-arg="" nohref="1" class="btn btn-default hidden-xs" title="Menu"><img src="./strawberry_files/menu.svg"></a>
+<a href="https://photoscissors.com/user/images" class="btn btn-danger " title="Close"><img src="./strawberry_files/clear.svg"></a>
+</div>
+</div>
+</div>
+</nav>
+<div>
+<div class="col-sm-6" id="leftSide">
+<canvas id="leftCanvas" width="665" height="739" style="cursor: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABTUlEQVRIS8WXoU4DQRCGvxG0CQaDbW11DQiSIhC8QIMoCaK8AZag8FRXtA4E4QUQiJLU1KCxYDGYJoBYst1e7rjSdvf2mjl5N/98O7ezM7OCz2OoAE2gAdSAXWB7Lp0CH8A78Aq8IHyvcysrDQw7wDHQArbWOZt//wGegUeEz2Wa5WAzg7WBqicwb/YFPCCzRSw8/4MNHeCwIDAvGyHc5V8ugg3nwF5J0MTNBGGQ9fkXXG6kKyNPwW5PT0uONO/uNtlzB3bZex2RSL7rtQl3ZbM9AZ8AR77qSLsnhHvBFYebgHMaycWe8wsL3ge6sd4C9UMLPgMOAoWx5mMLvgTqsZ4C9W8W3MsU/EB9YfOpBfcLyyOEqmC1X62WXGrHSa2AKJVM150UmoRqW3RwhUEgqUAqo08KVxj2NhO553ibwhUG+hSucIXJtrwNXNp+AZ/cYo9DOSk2AAAAAElFTkSuQmCC&quot;) 15 15, auto;">
+Your browser does not support the HTML 5 Canvas.
+</canvas>
+</div>
+<div class="col-sm-6" id="rightSide">
+<canvas id="rightCanvas" width="665" height="739" style="cursor: default;">
+Your browser does not support the HTML 5 Canvas.
+</canvas>
+</div>
+</div>
+<nav class="navbar navbar-default navbar-fixed-bottom unselectable hidden-lg hidden-md" role="navigation">
+<div class="container-fluid">
+<div id="navbar" class="navbar-btn">
+<div id="maskToolbar">
+<div class="pull-left">
+<div style="display: inline-block;" data-toggle="buttons">
+<div class="btn-group">
+<a data-act="setType" data-arg="foreground" nohref="1" class="btn btn-default active" title="Foreground">
+<input type="radio" name="type"> <img src="./strawberry_files/green.svg">
+</a>
+
+<a data-act="setType" data-arg="erase" nohref="1" class="btn btn-default" title="Erase Markings">
+<input type="radio" name="type"> <img src="./strawberry_files/eraser.svg">
+</a>
+</div>
+<div class="btn-group">
+<a data-act="setType" data-arg="matting" nohref="1" class="btn btn-default" title="Alpha Matting">
+<input type="radio" name="type"> <img src="./strawberry_files/yellow.svg">
+</a>
+<a data-act="setType" data-arg="erase-matting" nohref="1" class="btn btn-default" title="Erase Alpha Matting">
+<input type="radio" name="type"> <img src="./strawberry_files/eraser.svg">
+</a>
+</div>
+<div class="btn-group">
+<a data-act="setType" data-arg="move" nohref="1" class="btn btn-default" title="Move">
+<input type="radio" name="type"> <img src="./strawberry_files/move.svg">
+</a>
+</div>
+<div class="btn-group">
+<a data-act="clear" data-arg="" nohref="1" class="btn btn-default " title="Clear Selections"><img src="./strawberry_files/clear.svg"></a>
+</div>
+ </div>
+</div>
+<div class="pull-right">
+<div class="dropdown">
+<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Size
+<span class="caret"></span></button>
+<ul class="dropdown-menu">
+<li><a data-act="setLineWidth" data-arg="10" nohref="1">10</a></li>
+<li><a data-act="setLineWidth" data-arg="15" nohref="1">15</a></li>
+<li><a data-act="setLineWidth" data-arg="20" nohref="1">20</a></li>
+<li><a data-act="setLineWidth" data-arg="25" nohref="1">25</a></li>
+<li class="active"><a data-act="setLineWidth" data-arg="30" nohref="1">30</a>
+</li>
+<li><a data-act="setLineWidth" data-arg="35" nohref="1">35</a></li>
+<li><a data-act="setLineWidth" data-arg="40" nohref="1">40</a></li>
+<li><a data-act="setLineWidth" data-arg="45" nohref="1">45</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="resultToolbar" style="display: none;">
+<div class="pull-left">
+<div class="btn-group hidden-sm hidden-md hidden-lg" data-toggle="buttons">
+<a data-act="selectResultLayer" data-arg="foreground" data-toggle="tab" href="https://photoscissors.com/editor/1015230203/PYDkktEcr#foreground" nohref="1" class="btn btn-default" title="Foreground"><input type="radio" name="layer">
+<img src="./strawberry_files/foreground.svg">
+<span class="hidden-xxs small">Foreground</span>
+</a>
+<a data-act="selectResultLayer" data-arg="background" data-toggle="tab" href="https://photoscissors.com/editor/1015230203/PYDkktEcr#background" nohref="1" class="btn btn-default active" title="Background"><input type="radio" name="layer">
+<img src="./strawberry_files/background.svg">
+<span class="hidden-xxs small">Background</span>
+</a>
+<a data-act="selectResultLayer" data-arg="shadow" data-toggle="tab" href="https://photoscissors.com/editor/1015230203/PYDkktEcr#shadow" nohref="1" class="btn btn-default " title="Shadow"><input type="radio" name="layer">
+<img src="./strawberry_files/shadow.svg">
+<span class="hidden-xxs small">Shadow</span>
+</a>
+</div>
+</div>
+<div class="pull-right">
+<a data-act="toggleMenu" data-arg="" nohref="1" class="btn btn-default " title="Menu"><img src="./strawberry_files/menu.svg"></a>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="modal fade" id="progressDialog" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 id="progressDlgTitle" class="modal-title">Loading...</h4>
+</div>
+<div class="modal-body">
+<div class="progress">
+<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+<span class="sr-only">100% Complete</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="messageDlg" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+<h4 id="messageDlgTitle" class="modal-title"></h4>
+</div>
+<div class="modal-body">
+<p id="messageDlgText"></p>
+</div>
+</div>
+</div>
+</div>
+<div id="downloadModal" class="modal fade" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">×</button>
+<h4 class="modal-title">Download Result Image</h4>
+</div>
+<div class="modal-body">
+<p>In order to download high quality results you need to purchase download credits.<br>(<a href="https://photoscissors.com/user/login">Log in</a> if you're already registered.)</p>
+</div>
+<div class="modal-footer">
+<a data-act="downloadLowRes" data-arg="" nohref="1" type="button" class="btn btn-default" data-dismiss="modal">Download in Low Resolution</a>
+<a href="https://photoscissors.com/pricing" type="button" class="btn btn-success">Purchase</a>
+</div>
+</div>
+</div>
+</div>
+<script src="./strawberry_files/jquery.min.js.download" type="text/javascript"></script>
+<script src="./strawberry_files/bootstrap.min.js.download" type="text/javascript"></script>
+<script src="./strawberry_files/canvas-toBlob.js.download" type="text/javascript"></script>
+<script src="./strawberry_files/FileSaver.min.js.download" type="text/javascript"></script>
+<script src="./strawberry_files/exif.js.download" type="text/javascript"></script>
+<script type="application/javascript" src="./strawberry_files/utils.js.download"></script>
+<script type="application/javascript" src="./strawberry_files/eventdispather.js.download"></script>
+<script type="application/javascript" src="./strawberry_files/layer.js.download"></script>
+<script type="application/javascript" src="./strawberry_files/rect.js.download"></script>
+<script type="application/javascript" src="./strawberry_files/recttracker.js.download"></script>
+<script type="application/javascript" src="./strawberry_files/layersview.js.download"></script>
+<script type="application/javascript" src="./strawberry_files/scribblelayer.js.download"></script>
+<script type="application/javascript" src="./strawberry_files/imagelayer.js.download"></script>
+<script type="application/javascript" src="./strawberry_files/backgroundlayer.js.download"></script>
+<script type="application/javascript" src="./strawberry_files/foregroundlayer.js.download"></script>
+<script type="application/javascript" src="./strawberry_files/shadowlayer.js.download"></script>
+<script type="application/javascript" src="./strawberry_files/masklayer.js.download"></script>
+<script type="application/javascript" src="./strawberry_files/undostack.js.download"></script>
+<script type="application/javascript" src="./strawberry_files/model.js.download"></script>
+<script type="application/javascript" src="./strawberry_files/editor.js.download"></script>
+<script type="application/javascript">
+		$('.collapse').collapse()
+
+		if ($(window).width() < 768) {
+			$("#wrapper").toggleClass("toggled");
+		}
+
+		document.body.addEventListener('contextmenu', function (e) { e.preventDefault(); });
+		window.addEventListener('orientationchange', function (e) { window.location.reload(); });
+		function GetIEVersion() {
+			var sAgent = window.navigator.userAgent;
+			var Idx = sAgent.indexOf("MSIE");
+
+			// If IE, return version number.
+			if (Idx > 0)
+				return parseInt(sAgent.substring(Idx + 5, sAgent.indexOf(".", Idx)));
+
+			// If IE 11 then look for Updated user agent string.
+			else if (!!navigator.userAgent.match(/Trident\/7\./))
+				return 11;
+
+			else
+				return 0; //It is not IE
+		}
+		function updateProgress(progress, caption) {
+			if (typeof caption !== 'undefined') {
+				$('#progressDlgTitle').text(caption);
+			}
+
+			if (progress == 0) {
+				$('#progressDialog').modal('show');
+			} else if (progress == 100) {
+				$('#progressDialog').modal('hide');
+			}
+		}
+
+		function showMessage(caption, text) {
+			updateProgress(100);
+
+			if (caption) {
+				$('#messageDlgTitle').text(caption);
+			}
+
+			if (caption) {
+				$('#messageDlgText').text(text);
+			}
+
+			$('#messageDlg').modal('show');
+		}
+
+		$(document).ready(function () {
+			if (GetIEVersion() > 0) {
+				showMessage("Error", "Sorry but Internet Explorer is not supported");
+				return;
+			}
+
+			updateProgress(0, "Loading...");
+
+			var model = new Model({"id":1015230203,"secret":"PYDkktEcr","date":1610808557202,"fileName":"strawberry"});
+		model.modelLoadedEvent.attach(function () {
+			updateProgress(100);
+
+			window.editor = new Editor(model,
+				document.getElementById("leftCanvas"),
+				document.getElementById("rightCanvas"));
+
+			window.addEventListener('resize', window.editor.fitToContainer, false);
+		});
+		});
+		/*
+		$("#wrapper").on('transitionend webkitTransitionEnd oTransitionEnd', function () {
+			if($(window).width() >= 768)
+				window.editor.fitToContainer();
+		});
+		*/
+
+		document.addEventListener('touchstart', function (e) {
+			if (e.touches.length > 1)
+				e.preventDefault();
+		});
+	</script>
+
+</body></html>
